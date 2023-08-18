@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'ProximaRegular';
+  src: url('/font/proxima-regular.eot');
+  src: local('Proxima Soft Regular'), local('proxima-regular'),
+    url('/font/proxima-regular.eot?#iefix') format('embedded-opentype'),
+    url('/font/proxima-regular.woff') format('woff'),
+    url('/font/proxima-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaMedium';
+  src: url('/font/proxima-medium.eot');
+  src: local('Proxima Soft Medium'), local('proxima-medium'),
+    url('/font/proxima-medium.eot?#iefix') format('embedded-opentype'),
+    url('/font/proxima-medium.woff') format('woff'),
+    url('/font/proxima-medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaSemiBold';
+  src: url('/font/proxima-semibold.eot');
+  src: local('Proxima Soft SemiBold'), local('proxima-semibold'),
+    url('/font/proxima-semibold.eot?#iefix') format('embedded-opentype'),
+    url('/font/proxima-semibold.woff') format('woff'),
+    url('/font/proxima-semibold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaBold';
+  src: url('/font/proxima-bold.eot');
+  src: local('Proxima Bold'), local('proxima-bold'),
+    url('/font/proxima-bold.eot?#iefix') format('embedded-opentype'),
+    url('/font/proxima-bold.woff') format('woff'),
+    url('/font/proxima-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
