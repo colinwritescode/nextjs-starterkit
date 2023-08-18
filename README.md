@@ -1,1 +1,1 @@
-### A Simple NextJS, Styled-Components, & Zustand Frontend StarterKit
+### A Simple NextJS, Styled-Components, & Zustand Frontend TypeScript StarterKit
