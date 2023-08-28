@@ -3,8 +3,11 @@ import create from 'zustand'
 //=============================================================================
 // ## In charge of storing the current host
 //=============================================================================
+export interface APIRouteSwitcherState {
+  apiURL: string
+}
 
-const useAPIRouteSwitcher = create((set) => ({
+const useAPIRouteSwitcher = create<APIRouteSwitcherState>((set) => ({
   apiURL: '',
 }))
 

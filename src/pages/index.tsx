@@ -9,19 +9,13 @@ export default function Home() {
   console.log('중요한')
 
   useEffect(() => {
-    if (
-      window.location.href === 'http://localhost:3000/' ||
-      window.location.href === 'http://localhost:3000'
-    ) {
+    if (window.location.href.includes('http://localhost:3000')) {
       useAPIRouteSwitcher.setState({
         apiURL: 'http://localhost:8000',
       })
     }
 
-    if (
-      window.location.href === 'https://frontend.example.com/' ||
-      window.location.href === 'https://frontend.example.com'
-    ) {
+    if (window.location.href.includes('https://frontend.example.com')) {
       useAPIRouteSwitcher.setState({
         apiURL: 'https://backend.example.com',
       })
